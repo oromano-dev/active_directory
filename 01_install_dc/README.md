@@ -17,3 +17,9 @@ Install-windowsfeature AD-Domain-Services -IncludemanagementTools
 Import-Module ADDSDeployment
 Install-ADDSForest
 ````
+
+# Joindre une machine au domaine 
+
+```` Shell
+Add-Computer -DomainName xyz.ch -Credential xyz\Administrator -Force -Restart
+````
