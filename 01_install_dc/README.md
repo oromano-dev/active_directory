@@ -10,3 +10,10 @@
 ```` Shell
 install-windowsfeature AD-Domain-Services -IncludemanagementTools 
 ````
+
+3. Installer la forêt Active Directory
+
+```` Shell
+import-Module ADDSDeployment
+install-ADDSForest
+````
