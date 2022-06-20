@@ -8,12 +8,12 @@
 2. Installer les fonctionnalités Active Directory
 
 ```` Shell
-install-windowsfeature AD-Domain-Services -IncludemanagementTools 
+Install-windowsfeature AD-Domain-Services -IncludemanagementTools 
 ````
 
 3. Installer la forêt Active Directory
 
 ```` Shell
-import-Module ADDSDeployment
-install-ADDSForest
+Import-Module ADDSDeployment
+Install-ADDSForest
 ````
